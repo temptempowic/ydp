@@ -6,7 +6,7 @@ t = turtle.Turtle()
 t.speed(0)
 
 def draw_petal():
-    t.color("lightpink", "pink")
+    t.color("pink", "yellow")
     t.begin_fill()
     t.circle(150, 60) 
     t.left(120)
