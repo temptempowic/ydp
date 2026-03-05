@@ -3,12 +3,10 @@ import colorsys
 
 t = turtle.Turtle()
 s = turtle.Screen()
-s.bgcolor('black')
+s.bgcolor('white')
 t.speed(0)
-
 n = 50
 h = 0
-
 for i in range(200):
     c = colorsys.hsv_to_rgb(h, 1, 1)
     t.pencolor(c)
@@ -19,5 +17,4 @@ for i in range(200):
     t.forward(10)
     t.right(150)
     t.circle(10, 90) 
-
 turtle.done()
