@@ -1,7 +1,7 @@
 import turtle
 
 screen = turtle.Screen()
-screen.bgcolor("black")
+screen.bgcolor("white")
 t = turtle.Turtle()
 t.speed(0) 
 
@@ -10,7 +10,7 @@ def draw_rose():
     t.penup()
     t.goto(0, -50)
     t.pendown()
-    t.color("red")
+    t.color("green")
     t.begin_fill()
     
     for i in range(500):
